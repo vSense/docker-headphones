@@ -25,11 +25,11 @@ Run headphones :
 
 	docker run vsense/headphones:<yourtag>
 
-You can test it by visiting `http://container-ip:5050` in a browser or, if you need access outside the host, on port 5050 :
+You can test it by visiting `http://container-ip:8181` in a browser or, if you need access outside the host, on port 8181 :
 
-	docker run -p 5050:5050 vsense/headphones:<yourtag>
+	docker run -p 8181:8181 vsense/headphones:<yourtag>
 
-Then go to `http://localhost:5050` or `http://host-ip:5050` in a browser.
+Then go to `http://localhost:8181` or `http://host-ip:8181` in a browser.
 
 # Overriding
 
