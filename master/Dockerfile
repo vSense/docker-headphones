@@ -21,6 +21,8 @@ VOLUME /config /downloads
 
 EXPOSE 8181
 
+USER headphones
+
 CMD ["--datadir=/config","--nolaunch"]
 
 ENTRYPOINT ["/usr/bin/env","python2","/headphones/Headphones.py"]
